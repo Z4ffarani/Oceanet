@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+margin: 0;
+background-color: #000A18;
+}
+
+.janela {
+background-image: url(../Fotos/fundo-1.png);
+background-size: cover;
+min-width: 700px;
+min-height: 500px;
+}
+
+header {
+background-color: #000A18;
+height: 120px;
+text-align: center;
+align-content: center;
+min-width: 700px;
+}
+
+h1 {
+font-family: "Montserrat", sans-serif;
+color: #DCC9B8;
+user-select: none;
+transition: 250ms ease;
+text-align: center;
+}
+
+h1:hover {
+color: white;
+}
+
+h2 {
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+color: #DCC9B8;
+user-select: none;
+transition: 250ms ease;
+margin-bottom: 10px;
+}
+
+h2:hover {
+color: white;
+}
+
+.fundo {
+display: flex;
+flex-direction: column;
+background-color: #000A18;
+padding: 40px;
+margin: 50px;
+width: 400px;
+justify-content: center;
+border-radius: 20px;
+border: solid #DCC9B8 1.5px;
+}
+
+input {
+font-family: "Montserrat", sans-serif;
+background-color: #000A18;
+border: solid #DCC9B8 1.5px;
+border-radius: 5px;
+padding: 4px;
+height: 25px;
+transition: 200ms ease;
+color: #DCC9B8;
+font-weight: 500;
+margin-bottom: 10px;
+}
+
+input:focus {
+background-color: #DCC9B8;
+color: #000A18;
+font-weight: 500;
+outline: none;
+}
+
+.botao-registrar {
+font-family: "Montserrat", sans-serif;
+scale: 125%;
+font-weight: 700;
+color: #DCC9B8;
+background-color: transparent;
+border: solid #DCC9B8;
+border-radius: 5px;
+border-width: 1.5px;
+padding: 5px;
+cursor: pointer;
+transition: 250ms ease;
+width: 110px;
+margin: 30px;
+}
+
+.botao-registrar:hover {
+color: white;
+background-color: none;
+border: solid white 1.5px;
+}
+
+.botao-login {
+font-family: "Montserrat", sans-serif;
+scale: 125%;
+font-weight: 700;
+color: #000A18;
+background-color: #DCC9B8;
+border: solid #DCC9B8;
+border-radius: 5px;
+border-width: 2px;
+padding: 5px;
+cursor: pointer;
+transition: 250ms ease;
+width: 110px;
+margin: 30px;
+}
+
+.botao-login:hover {
+color: #000A18;
+background-color: white;
+border: solid white 2px;
+}
+
+.botoes {
+margin-top: 15px;
+align-self: center;
+}
+
+.janela {
+display: flex;
+justify-content: center;
+}
