@@ -77,12 +77,12 @@ font-weight: 500;
 outline: none;
 }
 
-.botao-login {
+.botao-registrar {
 font-family: "Montserrat", sans-serif;
 scale: 125%;
 font-weight: 700;
-color: #000A18;
-background-color: #DCC9B8;
+color: #DCC9B8;
+background-color: transparent;
 border: solid #DCC9B8;
 border-radius: 5px;
 border-width: 2px;
@@ -93,7 +93,7 @@ width: 110px;
 margin: 30px;
 }
 
-.botao-login:hover {
+.botao-registrar:hover {
 color: #000A18;
 background-color: white;
 border: solid white 2px;
@@ -107,15 +107,4 @@ align-self: center;
 .janela {
 display: flex;
 justify-content: center;
-}
-
-.redirectToRegister{
-    display: flex;
-    justify-content: center;
-}
-
-a{
- font-family: "Montserrat", sans-serif;
- font-weight: 700;
- color: #DCC9B8;
 }

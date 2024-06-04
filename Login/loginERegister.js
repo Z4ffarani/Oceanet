@@ -6,3 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "../Site/index.html";
     }
 });
+
+function armazenarDados(){
+    var email = document.getElementById("email").value
+    console.log(email)
+    
+}
