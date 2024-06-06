@@ -5,6 +5,8 @@ margin: 0;
 }
 
 header {
+position: fixed;
+width: 100%;
 background-color: #000A18;
 display: flex;
 justify-content: space-between;
@@ -63,11 +65,135 @@ border: transparent;
 cursor: pointer;
 scale: 50%;
 transition: 200ms ease;
+z-index: 2;
 }
 
 .botao-menu:hover {
 scale: 55%;
 }
+
+/* CSS divMENU GAVETA ABRIR E FECHAR */
+.menu-gaveta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 120px;
+    width: 320px;
+    background: rgb(0,10,24);
+    background: linear-gradient(180deg, rgba(0,10,24,1) 0%, rgba(0,24,58,1) 100%);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease; opacity: 0.3s ease;
+    transform: translateY(-20px);
+    opacity: 0;
+    z-index: 1;
+}
+
+.menu-gaveta.aberto{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.fecharBtn{
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    scale: 50%;
+    transition: 200ms ease;
+}
+
+.fecharBtn:hover{
+    scale: 55%;
+}
+
+/* Menu de navegação entre seções */
+.navMenu{
+    display: flex;
+    flex-direction: column;
+}
+
+a.navAnchor{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: #DCC9B8;
+}
+
+a.navAnchor:hover{
+    scale: 110%;
+    background-color: #021227;
+    transition: 0.2s ease;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* fim menu de navegação */
+
+
+/* Carrossel de Imagens, seção  1 */
+.containerCarrossel{
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+    border-image: linear-gradient(#00183a ,#000A18, #00183a) 30;
+    border-width: 6px;
+    border-style: solid;
+    /* border: 4px solid #DCC9B8; */
+    margin: auto;
+}
+
+.slides{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide{
+    min-width: 500px;
+    height: 300px;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.botoes-carrossel{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%)
+}
+
+.botoes-carrossel img{
+    height: 100%;
+    scale: 65%;
+}
+
+.botoes-carrossel button{
+    width: 50px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+/* fim carrossel */
+
+/* logo Oceanet */
+.logoOceanet{
+    height: 80%;
+    padding-left: 250px;
+}
+
 
 .botao-registrar {
 font-family: "Montserrat", sans-serif;

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-<script src="login.js"></script>
+<script src="loginERegister.js"></script>
 
 <header>
     <h1>GLOBAL SOLUTION</h1>
@@ -17,12 +17,14 @@
     <div class="fundo">
         <h1>Saudações.</h1>
         <h2>E-mail:</h2>
-        <input type="text" placeholder="Digite seu e-mail">
-        <h2>Senha:</h2>
-        <input type="text" placeholder="Digite sua senha">
+        <input type="text" placeholder="Digite seu e-mail" id="loginEmail">
+        <h2 id="teste">Senha:</h2>
+        <input type="password" placeholder="Digite sua senha" id="loginSenha">
         <div class="botoes">
-            <button id="entrar" class="botao-login">ENTRAR</button>
-            <button id="registrar" class="botao-registrar">REGISTRAR</button>
+            <button id="entrar" class="botao-login" onclick="checarDados()">ENTRAR</button>
+        </div>
+        <div class="redirectToRegister">
+        <a href="../Register/register.html">Não possui uma conta? Cadastre-se!</a>
         </div>
     </div>
 </section>
