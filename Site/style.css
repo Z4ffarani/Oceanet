@@ -187,9 +187,10 @@ html{
 
 .botoes-carrossel button{
     width: 50px;
-    background: transparent;
+    background: rgba(255, 255, 255, 0.538);
     border: none;
     cursor: pointer;
+    border-radius: -16px;
 }
 /* fim carrossel */
 
@@ -550,8 +551,18 @@ color: white;
 font-family: "Montserrat", sans-serif;
 margin: 0;
 padding: 70px;
-font-size: 1.5rem;
-text-align: justify;
+font-size: 3rem;
+text-align: center;
+}
+
+b {
+color: #DCC9B8;
+}
+
+.lista {
+padding-bottom: 0px;
+font-size: 2rem;
+text-align: left;
 }
 
 .p-descricao-secao-4 {
@@ -559,8 +570,8 @@ color: white;
 background-color: #000a18d2;
 border-radius: 30px;
 margin-top: 30px;
-font-size: 1.5rem;
-text-align: justify;
+font-size: 2rem;
+text-align: center;
 }
 
 
