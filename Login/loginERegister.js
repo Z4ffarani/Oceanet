@@ -9,7 +9,9 @@ function armazenarDados(){
 
     else if(senha != confirmarSenha){
         confSenhaCheck.style.color = "red"
+    setTimeout(function(){    
         alert("Senhas não coincidem!\nTente novamente!")
+    },500)
     }
 
     else{
@@ -34,11 +36,19 @@ function checarDados(){
     var loginSenha = document.getElementById('loginSenha').value
 
     if(email!=loginEmail || senha!=loginSenha){
-        alert("Email ou Senha incorretos\nTente Novamente")
+        senhaLog.style.color = "red"
+        emailLog.style.color = "red"
+        setTimeout(function(){
+            alert("Email ou Senha incorretos\nTente Novamente")
+        },500)
     }
     else if(email==loginEmail && senha==loginSenha){
-        alert(`Sessão iniciada com sucesso!\nSeja bem vindo, ${nome}\nClique em "Ok" para ser redirecionado para nossa página`)
-        window.location.href = "../Site/index.html";
+        senhaLog.style.color = "green"
+        emailLog.style.color = "green"
+        setTimeout(function(){
+            alert(`Sessão iniciada com sucesso!\nSeja bem vindo, ${nome}\nClique em "Ok" para ser redirecionado para nossa página`)
+            window.location.href = "../Site/index.html";
+        },500)
     }
 }
 

@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // programação carrossel //
-    const carrossel = document.getElementById('carrossel');
-    const slides = document.querySelectorAll('.slide');
+    const carrossel = document.getElementById("carrossel");
+    const slides = document.querySelectorAll(".slide");
     const totalSlides = slides.length;
     let slideAtual = 0
 
@@ -46,6 +46,6 @@ function atualizarCarrossel(){
 
 // programação gaveta //
 function alternarGaveta(){
-    var menuGaveta = document.getElementById('menuGaveta');
-    menuGaveta.classList.toggle('aberto');
+    var menuGaveta = document.getElementById("menuGaveta");
+    menuGaveta.classList.toggle("aberto");
 }

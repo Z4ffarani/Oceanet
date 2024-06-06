@@ -93,12 +93,14 @@ scale: 55%;
     transition: transform 0.3s ease; opacity: 0.3s ease;
     transform: translateY(-20px);
     opacity: 0;
+    pointer-events: none;
     z-index: 1;
 }
 
 .menu-gaveta.aberto{
     transform: translateY(0);
     opacity: 1;
+    pointer-events: all;
 }
 
 .fecharBtn{
@@ -146,10 +148,10 @@ html{
     width: 500px;
     overflow: hidden;
     position: relative;
-    border-color: linear-gradient(#00183a, #000A18, #00183a) 30;
+    border-image: linear-gradient(#00183a, #000A18, #00183a) 30;
+    border-style: solid;
+    border-width: 6px;
     margin: auto;
-    border: solid 5px #020c2d;
-    border-radius: 15px
 }
 
 .slides{
