@@ -5,6 +5,10 @@ margin: 0;
 background-color: #000A18;
 }
 
+.logoOceanet{
+height: 80%;
+}
+
 .janela {
 background-image: url(../Fotos/fundo-1.png);
 background-size: cover;
