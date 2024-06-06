@@ -131,13 +131,21 @@ a.navAnchor:hover{
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+/* fim menu de navegação */
+
+
 /* Carrossel de Imagens, seção  1 */
 .containerCarrossel{
     width: 500px;
     overflow: hidden;
     position: relative;
-    border: 4px solid #DCC9B8;
-    border-radius: 10px;
+    border-image: linear-gradient(#00183a ,#000A18, #00183a) 30;
+    border-width: 6px;
+    border-style: solid;
+    /* border: 4px solid #DCC9B8; */
     margin: auto;
 }
 
@@ -179,6 +187,13 @@ a.navAnchor:hover{
     cursor: pointer;
 }
 /* fim carrossel */
+
+/* logo Oceanet */
+.logoOceanet{
+    height: 80%;
+    padding-left: 250px;
+}
+
 
 .botao-registrar {
 font-family: "Montserrat", sans-serif;
