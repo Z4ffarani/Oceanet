@@ -10,7 +10,14 @@
 <script src="script.js"></script>
 
 <header>
-    <button class="botao-menu"><img src="../Fotos/menu.png" alt="Botão de menu"></button>
+    <button class="botao-menu" onclick="alternarGaveta()"><img src="../Fotos/menu.png" alt="Botão de menu"></button>
+    <div id="menuGaveta" class="menu-gaveta">
+        <p class="gav">1</p>
+        <p class="gav">2</p>
+        <p class="gav">3</p>
+        <span class="fecharBtn" onclick="alternarGaveta()"><img src="../Fotos/fecharGaveta.png" alt="fechar"></span>
+    </div>
+
     <h1>GLOBAL SOLUTION</h1>
     <div class="botoes">
         <button id="botao-registrar" class="botao-registrar">CADASTRAR-SE</button>

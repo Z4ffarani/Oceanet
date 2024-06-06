@@ -11,3 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+function alternarGaveta(){
+    var menuGaveta = document.getElementById('menuGaveta')
+    menuGaveta.classList.toggle('aberto');
+}
