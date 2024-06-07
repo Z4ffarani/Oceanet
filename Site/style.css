@@ -585,7 +585,7 @@ text-align: center;
     .fundo-5 {width: 100%; max-height: 550px;}
     .fundo-6 {width: 100%; max-height: 550px;}
     .descricao-1 {width: 100%;}
-    .descricao-2 {width: 100%;}
+    .descricao-2 {width: 100%; padding-bottom: 70px;}
     .descricao-3 {width: 100%;}
     .descricao-4 {flex-direction: column; scale: 90%; align-items: center;}
     .descricao-5 {width: 100%;}
