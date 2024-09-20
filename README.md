@@ -1,4 +1,4 @@
-![banner](./assets/banner.png)
+![banner](./assets/Banner.png)
 
 # INTEGRANTES:
 - **[Kaique Rodrigues Zaffarani](https://github.com/Z4ffarani)**
@@ -8,11 +8,11 @@
 <br>
 
 # PROJETO
-A **[O20](https://www.g20.org/pt-br/g20-social/grupos-de-engajamento/oceans-20#:~:text=Sobre%20o%20O20&text=A%20criação%20do%20Oceans20%20pela,é%20plural%20em%20suas%20características.)**, em parceria com o projeto **[Blue Future (FIAP)](https://www.fiap.com.br/graduacao/global-solution/)**, procura soluções inovadoras utilizando as novas tecnologias para promover o futuro sustentável dos oceanos. Com isso, decidimos elaborar um protótipo de site para apresentar uma hipotética rede social que facilitará a comunicação entre cidadãos comum e atuadores de preservação da saúde dos oceanos, reduzindo o lixo disperso nas regiões litorâneas e oceânicas.
+A **[O20](https://www.g20.org/pt-br/g20-social/grupos-de-engajamento/oceans-20#:~:text=Sobre%20o%20O20&text=A%20criação%20do%20Oceans20%20pela,é%20plural%20em%20suas%20características.)**, em parceria com o projeto **[Blue Future (FIAP)](https://www.fiap.com.br/graduacao/global-solution/)**, procura soluções inovadoras utilizando as novas tecnologias para promover o futuro sustentável dos oceanos. Com isso, decidimos elaborar um protótipo de site para apresentar uma hipotética rede social que facilitará a comunicação entre cidadãos comuns e atuadores de preservação da saúde dos oceanos, reduzindo o lixo disperso nas regiões litorâneas e oceânicas.
 
 O projeto é composto por três páginas:
 
-- **Home** | Página principal do site contendo principais elementos visuais.
+- **Home** | Página principal do site contendo os principais elementos visuais.
 - **Registro** | Página dedicada para registro do usuário.
 - **Login** | Página dedicada ao login do usuário.
 
@@ -40,7 +40,7 @@ Acessar o site executando o arquivo ``index.html``.
 # OBSERVAÇÕES
 - O projeto utiliza ``sessionStorage`` para armazenar dados temporariamente. Isso significa que os dados são mantidos apenas enquanto a aba do navegador estiver aberta, sendo perdidos ao fechar o navegador ou recarregar a página. Para um sistema mais robusto de login, recomenda-se o uso de um banco de dados e autenticação segura.
 
-- A Validação básica de formulários foi implementada para o cadastro de usuários, mas é recomendado aprimorar a segurança com validação no backend e criptografia de senhas.
+- A validação básica de formulários foi implementada para o cadastro de usuários, mas é recomendado aprimorar a segurança com validação no backend e criptografia de senhas.
 
 - A funcionalidade do Carrossel de imagens está programada para transitar entre os slides com um simples efeito de translação ``translateX``, ideal para sites estáticos. No entanto, é possível melhorar a experiência do usuário adicionando animações suaves e ``autoplay``.
 
