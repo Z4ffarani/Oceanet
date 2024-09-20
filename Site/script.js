@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("botao-login").addEventListener("click", redirectToLogin);
     
     function redirectToRegister() {
-        window.location.href = "../Register/register.html";
+        window.location.href = "./Register/register.html";
     }
 
     function redirectToLogin() {
-        window.location.href = "../Login/login.html";
+        window.location.href = "./Login/login.html";
     }
 
     // programação carrossel //
