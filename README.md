@@ -25,7 +25,7 @@ Abrir a pasta criada em uma IDE de preferência.
 
 No terminal da IDE, clonar o repositório com `git clone https://github.com/ENDEREÇO-DO-REPOSITÓRIO-REMOTO.git`
 
-No terminal da IDE, navegar até a pasta do projeto com ``cd NOME-DA-PASTA``.
+No terminal da IDE, navegar até a pasta do projeto com ``cd Oceanet``.
 
 Acessar o site executando o arquivo ``index.html``.   
 
