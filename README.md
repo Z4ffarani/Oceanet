@@ -19,15 +19,17 @@ O projeto é composto por três páginas:
 <br>
 
 # INSTRUÇÕES
-Criar uma pasta no computador para ser o repositório local.
+1. Em um terminal, clonar o repositório:
+```bash
+git clone https://github.com/Z4ffarani/Oceanet.git
+```
 
-Abrir a pasta criada em uma IDE de preferência.
+2. No terminal, navegar até a pasta do projeto:
+```bash
+cd Oceanet
+```
 
-No terminal da IDE, clonar o repositório com `git clone https://github.com/Z4ffarani/Oceanet.git`.
-
-No terminal da IDE, navegar até a pasta do projeto com ``cd Oceanet``.
-
-Acessar o site executando o arquivo ``index.html``.   
+3. Acessar o site executando o arquivo ``index.html``.   
 
 <br>
 
