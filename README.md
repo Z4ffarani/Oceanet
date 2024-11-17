@@ -1,9 +1,9 @@
 ![banner](./assets/Banner.png)
 
 # INTEGRANTES:
-- **Kaique Zaffarani
-- **Guilherme Santos Nunes
-- **Henry Evideira Paulo
+- **Kaique Zaffarani**
+- **Guilherme Santos Nunes**
+- **Henry Evideira Paulo**
 
 <br>
 
