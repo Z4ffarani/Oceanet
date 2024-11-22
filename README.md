@@ -29,7 +29,7 @@ git clone https://github.com/Z4ffarani/Oceanet.git
 cd Oceanet
 ```
 
-3. Acessar o site executando o arquivo ``index.html``.   
+3. Acessar o site executando o arquivo `index.html`.   
 
 <br>
 
@@ -44,11 +44,11 @@ cd Oceanet
 <br>
 
 # OBSERVAÇÕES
-- O projeto utiliza ``sessionStorage`` para armazenar dados temporariamente. Isso significa que os dados são mantidos apenas enquanto a aba do navegador estiver aberta, sendo perdidos ao fechar o navegador ou recarregar a página. Para um sistema mais robusto de login, recomenda-se o uso de um banco de dados e autenticação segura.
+- O projeto utiliza `sessionStorage` para armazenar dados temporariamente. Isso significa que os dados são mantidos apenas enquanto a aba do navegador estiver aberta, sendo perdidos ao fechar o navegador ou recarregar a página. Para um sistema mais robusto de login, recomenda-se o uso de um banco de dados e autenticação segura.
 
 - A validação básica de formulários foi implementada para o cadastro de usuários, mas é recomendado aprimorar a segurança com validação no backend e criptografia de senhas.
 
-- A funcionalidade do carrossel de imagens está programada para transitar entre os slides com um simples efeito de translação ``translateX``, ideal para sites estáticos. No entanto, é possível melhorar a experiência do usuário adicionando animações suaves e ``autoplay``.
+- A funcionalidade do carrossel de imagens está programada para transitar entre os slides com um simples efeito de translação `translateX`, ideal para sites estáticos. No entanto, é possível melhorar a experiência do usuário adicionando animações suaves e `autoplay`.
 
 - O menu de gaveta pode ser melhorado para ter suporte a navegação mais complexa, como submenus ou integração com uma base de dados de páginas dinâmicas.
 
