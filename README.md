@@ -8,7 +8,7 @@
 <br>
 
 # PROJETO
-A **[O20](https://www.g20.org/pt-br/g20-social/grupos-de-engajamento/oceans-20#:~:text=Sobre%20o%20O20&text=A%20criação%20do%20Oceans20%20pela,é%20plural%20em%20suas%20características.)**, em parceria com o projeto **[Blue Future (FIAP)](https://www.fiap.com.br/graduacao/global-solution/)**, procura soluções inovadoras utilizando as novas tecnologias para promover o futuro sustentável dos oceanos. Com isso, decidimos elaborar um protótipo de site para apresentar uma hipotética rede social que facilitará a comunicação entre cidadãos comuns e atuadores de preservação da saúde dos oceanos, reduzindo o lixo disperso nas regiões litorâneas e oceânicas.
+A **[O20](https://www.g20.org/pt-br/g20-social/grupos-de-engajamento/oceans-20#:~:text=Sobre%20o%20O20&text=A%20criação%20do%20Oceans20%20pela,é%20plural%20em%20suas%20características.)**, em parceria com o projeto Blue Future da **[FIAP](https://www.fiap.com.br)**, procura soluções inovadoras utilizando as novas tecnologias para promover o futuro sustentável dos oceanos. Com isso, decidimos elaborar um protótipo de site para apresentar uma hipotética rede social que facilitará a comunicação entre cidadãos comuns e atuadores de preservação da saúde dos oceanos, reduzindo o lixo disperso nas regiões litorâneas e oceânicas.
 
 O projeto é composto por três páginas:
 
@@ -48,11 +48,11 @@ cd Oceanet
 
 - A validação básica de formulários foi implementada para o cadastro de usuários, mas é recomendado aprimorar a segurança com validação no backend e criptografia de senhas.
 
-- A funcionalidade do Carrossel de imagens está programada para transitar entre os slides com um simples efeito de translação ``translateX``, ideal para sites estáticos. No entanto, é possível melhorar a experiência do usuário adicionando animações suaves e ``autoplay``.
+- A funcionalidade do carrossel de imagens está programada para transitar entre os slides com um simples efeito de translação ``translateX``, ideal para sites estáticos. No entanto, é possível melhorar a experiência do usuário adicionando animações suaves e ``autoplay``.
 
-- O Menu de gaveta pode ser melhorado para ter suporte a navegação mais complexa, como submenus ou integração com uma base de dados de páginas dinâmicas.
+- O menu de gaveta pode ser melhorado para ter suporte a navegação mais complexa, como submenus ou integração com uma base de dados de páginas dinâmicas.
 
-- Este projeto é apenas um protótipo voltado para testes e demonstrações. Em um ambiente de produção, recomenda-se o uso de tecnologias adicionais, como frameworks de Front-end, além de um servidor Back-end para gerenciar autenticação e armazenamento de dados de forma segura.
+- Este projeto é apenas um protótipo voltado para testes e demonstrações. Em um ambiente de produção, recomenda-se o uso de tecnologias adicionais, como frameworks de front-end, além de um servidor back-end para gerenciar autenticação e armazenamento de dados de forma segura.
 
 <br>
 
