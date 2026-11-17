@@ -6,6 +6,14 @@ A **[O20](https://www.g20.org/pt-br/g20-social/grupos-de-engajamento/oceans-20)*
 
 ---
 
+## Integrantes
+
+- [Guilherme Santos Nunes](https://github.com/sannunez)
+- [Henry Evideira Paulo](https://github.com/Hep4xl0)
+- [Kaique Zaffarani](https://github.com/Z4ffarani)
+
+---
+
 ## Páginas
 
 | Página | Conteúdo |
