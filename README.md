@@ -53,6 +53,14 @@ Abra o arquivo `index.html` no navegador.
 
 ---
 
+## Projetos acadêmicos
+
+| Entrega | Repositório |
+|---|---|
+| Global Solution · Edge Computing & Computer Systems · FIAP 2024.1 | [2024-SEM1-GS-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS](https://github.com/Z4FFARANI-EDUCATIONAL/2024-SEM1-GS-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS) |
+
+---
+
 ## Tecnologias
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
